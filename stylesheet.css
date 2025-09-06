@@ -1,0 +1,145 @@
+
+body {
+  margin: 0;
+  .magic-heading {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 50px;
+  color: #d4af37;
+  text-shadow: 0 0 10px #000, 0 0 20px #44007d;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.magic-subtext {
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  color: #ffeecc;
+  text-shadow: 1px 1px 4px #222;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+  background: url("../images/hogwarts-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: gold;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 50, 0.6);
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+}body {
+  background-color: #0d0b1e;
+  background-image: url('../images/magic-scroll-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Uncial Antiqua', serif;
+  background: url('../images/magic-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 5, 30, 0.7);
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px 20px;
+}
+
+.magic-heading {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 60px;
+  color: #d4af37;
+  text-shadow: 0 0 15px #000, 0 0 30px #44007d;
+  letter-spacing: 3px;
+}
+
+.magic-subtext {
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  color: #ffeecc;
+  text-shadow: 1px 1px 4px #222;
+  margin-top: -10px;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-family: 'Great Vibes', cursive;
+  font-size: 24px;
+  color: #ffd700;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #c79aff;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px;
+  color: #ffccaa;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hogwarts University</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  
+   

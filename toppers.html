@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hogwarts Toppers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #0b0b0b;
+      color: white;
+      font-family: 'Uncial Antiqua', cursive;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      color: #f1c40f;
+      padding: 40px 10px 20px;
+      text-shadow: 0 0 15px #8e44ad;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 15px 0;
+      margin-top: 20px;
+      box-shadow: 0 0 15px #8e44ad;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fceabb;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    .house-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 10px;
+    }
+
+    .house-card {
+      background: rgba(255,255,255,0.05);
+      border: 2px solid #8e44ad;
+      border-radius: 20px;
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 0 20px #8e44ad;
+      transition: transform 0.3s ease;
+    }
+
+    .house-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #f1c40f;
+    }
+
+    .house-icon {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .house-title {
+      font-size: 28px;
+      color: #fceabb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🏆 Hogwarts House Toppers 🏆</h1>
+
+  <nav>
+    <a href="harrypotter.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="Professors.html">Professors</a>
+    <a href="toppers.html">Toppers</a>
+    <a href="story.html">Story</a>
+  </nav>
+
+  <div class="house-container">
+    <div class="house-card">
+      <a href="gryffindor.html">
+        <img src="https://cdn.wallpapersafari.com/12/19/M0hJ7x.jpg" class="house-icon" alt="Gryffindor">
+        <div class="house-title">Gryffindor</div>
+      </a>
+    </div>
+
+    <div class="house-card">
+      <a href="ravenclaw.html">
+        <img src="https://img00.deviantart.net/bce6/i/2017/028/0/8/ravenclaw_by_nikivandermosten-dawzy0s.jpg" class="house-icon" alt="Ravenclaw">
+        <div class="house-title">Ravenclaw</div>
+      </a>
+    </div>
+
+    <div class="house-card">
+      <a href="hufflepuff.html">
+        <img src="https://wallpaperaccess.com/full/5380472.jpg" class="house-icon" alt="Hufflepuff">
+        <div class="house-title">Hufflepuff</div>
+      </a>
+    </div>
+
+    <div class="house-card">
+      <a href="slytherin.html">
+        <img src="https://wallpapers.com/images/hd/slytherin-background-hhfeykl3xfqovs13.jpg" class="house-icon" alt="Slytherin">
+        <div class="house-title">Slytherin</div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Hogwarts Magical University. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Hogwarts University</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      color: #fff;
+      font-family: 'Uncial Antiqua', cursive;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 10px;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    header h1 {
+      font-size: 60px;
+      color: #fceabb;
+      text-shadow: 0 0 5px #fff, 0 0 15px #9b59b6;
+      animation: glow 3s infinite ease-in-out;
+    }
+
+    @keyframes glow {
+      0%, 100% {
+        text-shadow: 0 0 5px #fff, 0 0 15px #9b59b6;
+      }
+      50% {
+        text-shadow: 0 0 15px #f1c40f, 0 0 30px #8e44ad;
+      }
+    }
+
+    .hogwarts-img {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px #8e44ad;
+    }
+
+    .content {
+      padding: 40px 10%;
+      text-align: justify;
+    }
+
+    .magic-word {
+      color: #f1c40f;
+      position: relative;
+      font-weight: bold;
+      animation: sparkle 2s infinite alternate;
+    }
+
+    @keyframes sparkle {
+      0% {
+        text-shadow: 0 0 5px #f1c40f;
+        transform: scale(1);
+      }
+      100% {
+        text-shadow: 0 0 10px #ffffff, 0 0 15px #9b59b6;
+        transform: scale(1.05);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 14px;
+      color: #ccc;
+    }
+    .floating-candles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.floating-candles::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background: #fff8dc;
+  border-radius: 2px;
+  box-shadow: 0 0 10px #fffbcc, 0 0 20px #fff8dc;
+  animation: floatCandle 5s infinite ease-in-out;
+}
+
+@keyframes floatCandle {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(5deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+nav {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 15px 0;
+      margin-top: 20px;
+      box-shadow: 0 0 15px #8e44ad;
+    }
+
+    nav a {
+      color: #fceabb;
+      text-decoration: none;
+      margin: 0 15px;
+      font-family: 'Uncial Antiqua', cursive;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+  </style>
+</head>
+<body>
+ 
+<audio autoplay loop>
+  <source src="C:\Users\Shikhaa\Desktop\HARRY POTTER\8d82b5_Harry_Potter_Intro_Sound_Effect.mp3" type="audio/mpeg">
+</audio>
+
+
+  
+    <nav>
+     
+      <a href="harrypotter.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="Professors.html">Professors</a>
+      <a href="toppers.html">toppers</a>
+      <a href="story.html">story</a>
+    </nav>
+<header>
+    <h1>About Hogwarts University</h1>
+  </header>
+  <img class="hogwarts-img" src="https://cdn.shopify.com/s/files/1/0182/2915/files/Pablo-Hogwarts-gif-slow_1024x1024.gif?v=1705954214" alt="Hogwarts Castle with Harry Potter">
+
+  <section class="content">
+    <h2>The <span class="magic-word">Legendary Castle</span></h2>
+    <p>
+      Hogwarts University, established in the highlands of Scotland, stands as a beacon of magical education for centuries. The castle, known as the <span class="magic-word">Heart of Wizardry</span>, has been enchanted with spells of protection, illusion, and secret passageways known only to the wise.
+    </p>
+    <p>
+      Founded by the four greatest witches and wizards of their time—<span class="magic-word">Godric Gryffindor</span>, <span class="magic-word">Helga Hufflepuff</span>, <span class="magic-word">Rowena Ravenclaw</span>, and <span class="magic-word">Salazar Slytherin</span>—Hogwarts remains a symbol of unity, bravery, and magic.
+    </p>
+    <p>
+      Over the years, it has witnessed battles, secrets, legends, and heroes—none greater than <span class="magic-word">Harry Potter</span>, who once walked these enchanted corridors and stood up to the darkest wizard of all time.
+    </p>
+    <p>
+      From the Great Hall’s floating candles to the hidden common rooms, from the Forbidden Forest to the Room of Requirement—every corner of Hogwarts pulses with <span class="magic-word">mystery</span> and <span class="magic-word">majesty</span>.
+    </p>
+    <p>
+      Today, Hogwarts University opens its gates not just to British witches and wizards, but to young sorcerers from around the magical globe. Here, knowledge isn’t just taught—it’s cast, conjured, and brewed.
+    </p>
+  </section>
+  <div class="floating-candles ten"></div>
+
+
+  <footer>
+    &copy; 2025 Hogwarts University | May your spells always succeed ✨
+  </footer>
+  <script>
+  const container = document.querySelector('.floating-candles');
+  for (let i = 0; i < 30; i++) {
+    const candle = document.createElement('div');
+    candle.classList.add('floating-candle');
+    candle.style.position = 'absolute';
+    candle.style.width = '4px';
+    candle.style.height = '20px';
+    candle.style.background = '#fff8dc';
+    candle.style.boxShadow = '0 0 10px #fffbcc, 0 0 20px #fff8dc';
+    candle.style.borderRadius = '2px';
+    candle.style.left = `${Math.random() * 100}%`;
+    candle.style.top = `${Math.random() * 100}%`;
+    candle.style.animation = `floatCandle ${3 + Math.random() * 4}s ease-in-out infinite`;
+    container.appendChild(candle);
+  }
+</script>
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+
+  window.addEventListener('scroll', () => {
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+
+      if (elementTop < windowHeight - 100) {
+        reveals[i].classList.add('active');
+      }
+    }
+  });
+</script>
+<p class="reveal">Your article paragraph here...</p>
+
+<audio id="bg-music" loop>
+  <source src="C:\Users\Shikhaa\Desktop\HARRY POTTER\8d82b5_Harry_Potter_Intro_Sound_Effect.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('bg-music');
+
+    // Start music after any click
+    document.body.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.play().catch((err) => {
+          console.log("Playback error:", err);
+        });
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>
+

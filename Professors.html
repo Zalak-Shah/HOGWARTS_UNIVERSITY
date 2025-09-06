@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professors of Hogwarts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #0a0a0a;
+      color: white;
+      font-family: 'Great Vibes', cursive;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    nav h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 32px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    .professors {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 40px;
+      gap: 30px;
+      font-family: Arial, sans-serif;
+    }
+
+    .professor-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid #8e44ad;
+      border-radius: 20px;
+      width: 200px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 15px #8e44ad;
+      transition: transform 0.5s;
+    }
+
+    .professor-card:hover {
+      transform: scale(1.05);
+    }
+
+    .professor-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      animation: magicPhoto 2s infinite alternate ease-in-out;
+    }
+
+    @keyframes magicPhoto {
+      0% { filter: brightness(0.9) saturate(1); transform: scale(1); }
+      100% { filter: brightness(1.2) saturate(1.2); transform: scale(1.05); }
+    }
+
+    .professor-name {
+      margin-top: 15px;
+      font-size: 20px;
+      color: #fceabb;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>🏰 Hogwarts Professors</h1>
+    <div>
+     
+      <a href="harrypotter.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="Professors.html">Professors</a>
+      <a href="toppers.html">toppers</a>
+      <a href="story.html">story</a>
+    
+  </nav>
+
+  <section class="professors">
+    <!-- Dumbledore -->
+<div class="professor-card">
+  <img class="professor-img" src="https://tenor.com/view/harry-potter-gif-18747122.gif" alt="Dumbledore">
+  <div class="professor-name">Prof. Dumbledore</div>
+</div>
+
+    <!-- Snape -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/Maf6zHyIGWgAAAAC/tati-linda.gif" alt="Snape">
+      <div class="professor-name">Prof. Snape</div>
+    </div>
+
+    <!-- McGonagall -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/jYR1dCAK3dYAAAAC/well-mcgonagall.gif" alt="McGonagall">
+      <div class="professor-name">Prof. McGonagall</div>
+    </div>
+
+    <!-- Hagrid -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/CSTn8eb1x8IAAAAC/hagrid-harry-potter.gif" alt="Hagrid">
+      <div class="professor-name">Prof. Hagrid</div>
+    </div>
+
+    <!-- Flitwick -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/KpmMM_hbDG8AAAAd/composer-music.gif" alt="Flitwick">
+      <div class="professor-name">Prof. Flitwick</div>
+    </div>
+
+    <!-- Trelawney -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/PI7i8NmP52AAAAAC/sybill-trelawney-harry-potter.gif" alt="Trelawney">
+      <div class="professor-name">Prof. Trelawney</div>
+    </div>
+
+    <!-- Lupin -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/DRmJBhkIqm4AAAAC/remus-lupin.gif" alt="Lupin">
+      <div class="professor-name">Prof. Lupin</div>
+    </div>
+
+    <!-- Moody -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/vUAT72-CSckAAAAC/technically-its-a-ferret-ferret.gif" alt="Moody">
+      <div class="professor-name">Prof. Moody</div>
+    </div>
+
+    <!-- Sprout -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/ELSzIxwBLqgAAAAC/yes-miriam-margolyes.gif" alt="Sprout">
+      <div class="professor-name">Prof. Sprout</div>
+    </div>
+
+    <!-- Binns -->
+    <div class="professor-card">
+      <img class="professor-img" src="https://media1.tenor.com/m/cbh_r5HR9OYAAAAC/gene-gene-endrody.gif" alt="Binns">
+      <div class="professor-name">Prof. Binns</div>
+    </div>
+  </section>
+
+</body>
+</html>
